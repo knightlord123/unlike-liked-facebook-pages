@@ -10,7 +10,7 @@ class deleter():
         
     def login(self):
         a=input("ENTER EMAIL-----")
-        b=input("ENTER YOUR PASSWORD----)
+        b=input("ENTER YOUR PASSWORD----")
 
         self.driver.get('https://www.facebook.com/')
         fb_button = self.driver.find_element_by_xpath('//*[@id="email"]')
